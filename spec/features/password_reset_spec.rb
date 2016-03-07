@@ -65,7 +65,7 @@ feature 'password can be reset' do
      fill_in :password_confirmation, with: "wrongpassword"
      click_button "Submit"
      expect(page).to have_content("Password does not match the confirmation")
-   end
+  end
 
   scenario 'it calls the SendRecoveryLink service to send the link' do
     expect(SendRecoverLink).to receive(:call).with(user)

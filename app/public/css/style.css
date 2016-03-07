@@ -24,7 +24,7 @@ h2 {
   position: fixed;
   margin: auto;
   width: 100vw;
-  height: 20vh;
+  height: 25vh;
   z-index: 1;
   padding: 15px;
   background-color: #f7f7eb;
@@ -33,7 +33,6 @@ h2 {
 
 #header form {
   display: inline-block;
-  margin-top: -25vh;
 }
 
 label {
