@@ -17,19 +17,19 @@ $ git clone https://github.com/edwardkerry/chitter-challenge
 $ cd chitter-challenge
 ```
 
-Run Bundle to acquire necessary Ruby gems `$ bundle`
+- Run Bundle to acquire necessary Ruby gems `$ bundle`
 
-Build database and run rake migrations
+- Build database and run rake migrations
 ```
 $ createdb chitter_development
 $ rake db:migrate
 ```
 
-Launch the server with Rack `$ rack`
+- Launch the server with Rack `$ rack`
 
-Visit the site `http://localhost:9292`
+- Visit the site `http://localhost:9292`
 
-Sign up and get peeping!
+- Sign up and get peeping!
 
 User Stories:
 -------
