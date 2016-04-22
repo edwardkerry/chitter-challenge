@@ -9,7 +9,6 @@ html, body {
 h1 {
   color: #061EBF;
   font-size: 45px;
-  padding: 15px;
 }
 
 h2 {
@@ -24,8 +23,6 @@ h2 {
   position: fixed;
   margin: auto;
   width: 100vw;
-  height: 25vh;
-  z-index: 1;
   padding: 15px;
   background-color: #f7f7eb;
   box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
@@ -60,17 +57,19 @@ input {
   border-radius: 40px;
   }
 
-
 /*Peeps*/
 #peeps, #recover, #sign_in {
   background-color: #f2f2dc ;
   border-radius: 10px;
+  border-top: 25px;
+  padding-top: 20px;
   padding-left: 0;
-  padding-top: 40px;
+  margin:20px;
+  z-index: -1;
   position: absolute;
   left: 25vw;
   width: 50vw;
-  top: 30vh;
+  top: 40%;
   overflow:auto;
 }
 
